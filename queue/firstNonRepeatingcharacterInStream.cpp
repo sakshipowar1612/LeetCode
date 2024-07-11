@@ -2,7 +2,7 @@
 #include <queue>
 #include <vector>
 using namespace std;
-
+//GFG
 string FirstNonRepeating(string A)
 {
     queue<char> q;
@@ -35,7 +35,7 @@ string FirstNonRepeating(string A)
 }
 
 int main(){
-    string s = "aabc";
+    string s = "facfdcad";
     string ans = FirstNonRepeating(s);
     cout << ans << endl;
 
